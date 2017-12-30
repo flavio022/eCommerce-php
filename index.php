@@ -24,23 +24,137 @@
             </ul>
           </li>
       </div>
-    </nav>    
+    </nav>
+    
+    <!--header-->    
     <div id="headerWrapper">
     <div id="back-flower"></div>
     <div id="logotext"></div>
     <div id="fore-flower"></div>
     </div>
-    <p>O que é Lorem Ipsum?
-Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
 
-Porque nós o usamos?
-É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).
+    <div class="container-fluid">
+        <!--Left side bar-->
+        <div class="col-md-2">Left Side Bar</div>
+        <!--main content-->
+        <div class="col-md-8">Main
+          <div class="row">
+              <h2 class="text-center">Feature Products</h2>
 
+              <div class="col-md-3">
+                <h4>Levis Jeans</h4>
+                <img src="images/products/men4.png" alt="Levis Jeans" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$94.99</s></p>
+                <p class="price">Our Price: R$59.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+              
 
-De onde ele vem?
-Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+          <div class="col-md-3">
+                <h4>Hollister Shirt</h4>
+                <img src="images/products/men1.png" alt="Hollister Shirt" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$94.99</s></p>
+                <p class="price">Our Price: R$39.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>      
+          
 
-O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.</p> 
+          <div class="col-md-3">
+                <h4>Girls Dress</h4>
+                <img src="images/products/girls3.png" alt="Girls Dress" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$54.99</s></p>
+                <p class="price">Our Price: R$39.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+
+          <div class="col-md-3">
+                <h4>Woman's Shirt</h4>
+                <img src="images/products/women7.png" alt="Woman's Shirt" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$84.99</s></p>
+                <p class="price">Our Price: R$49.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+          <div class="col-md-3">
+                <h4>Boys Hoodie</h4>
+                <img src="images/products/boys1.png" alt="Boys Hoodie" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$94.99</s></p>
+                <p class="price">Our Price: R$59.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+
+          <div class="col-md-3">
+                <h4>Women's Skirt</h4>
+                <img src="images/products/women3.png" alt="Woman's Skirt" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$94.99</s></p>
+                <p class="price">Our Price: R$59.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+
+          <div class="col-md-3">
+                <h4>Purse</h4>
+                <img src="images/products/women5.png" alt="Purse" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$94.99</s></p>
+                <p class="price">Our Price: R$59.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+
+          <div class="col-md-3">
+                <h4>Fancy Shoes</h4>
+                <img src="images/products/women6.png" alt="Fancy Shoes" class="img-thumb"/>
+                <p class="list-price text-danger">List Price <s>R$254.99</s></p>
+                <p class="price">Our Price: R$190.99</p>
+                <button type="button" class="btn btn-sm btn-sucess" data-toggle="modal" 
+                data-target="#details-1">Details</button>
+          </div>
+
+        </div>
+        <div class="col-md-2">Right Side Bar</div>   
+    </div>
+    <!--footer-->
+    <footer class="text-center" id="footer">&copy; Copyright 2017-2018 Shaunta's Boutique</footer>
+    <!--Details Modal -->
+    <div class="modal fade details-1" id="details-1" tabindex="1" role="dialog" aria-labelledby="details-1"
+    aria-hidden="true">
+    <div class="modal-dialog modal-1g">
+      <div class="modal-content">      
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" arial-label="Close">
+          <span aria-hidden="true">&times;</span>        
+        </button>
+        <h4 class="modal-tittle text-center">Levis Jeans</h4>           
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="center-block">
+                <img src="images/products/men4.png" alt="Levis Jeans" class="details img-responsive">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h4>Details</h4>
+              <p>These jeans are amazing! They are straight leg, fit great and look sexy. Get a pair while they last!</p>
+              <hr>
+              <p>Price: R$34.99</P>
+              <p>Brand: Levis</p>              
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
+      </div>
+</div>
+    </div>  
+    </div> 
 <script>
   jQuery(window).scroll(function(){
     var vscroll = jQuery(this).scrollTop();

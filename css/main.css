@@ -48,3 +48,7 @@ body{
     top:400px;
     left: -25px;
 }
+.img-thumb{
+    width: auto;
+    height: 170px;    
+}
