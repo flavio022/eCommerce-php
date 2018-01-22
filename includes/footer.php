@@ -20,6 +20,24 @@
     });
 
   })
+    function detailsmodal(id) {
+			var data = {"id" : id, };
+			jQuery.ajax({
+				url : '/MyeCommerce/includes/detailsmodal.php',
+				method : "post",
+				// If you inspect the network for form you'll see there is form data
+				// That contains our id
+				data : data,
+				success: function(data) {
+					jQuery('body').append(data);
+					// We can now toggle the modal because its in the body
+					jQuery('#details-modal').modal('toggle');
+				},
+				error: function() {
+					alert("Something went wrong!");
+				}
+			});
+		}
 </script>
 
 </body>
